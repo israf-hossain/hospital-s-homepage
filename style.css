@@ -1,0 +1,173 @@
+{
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+/* Navigation Bar  */
+.nav {
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 35px;
+    box-shadow: 5px 5px 5px rgb(241, 229, 241);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+   
+
+}
+
+.nav-left {
+    display: flex;
+  
+    align-items: center;
+
+}
+
+.nav-left>img {
+    width: 65px;
+    height: 65px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.nav-left p {
+    font-size: 12px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-right a {
+    margin-right: 5px;
+    padding: 10px;
+    text-decoration: tranparent;
+    color: black;
+    transition: text-decoration 1s ease-in-out, letter-spacing 0.50s ease-in-out;
+}
+
+.nav-right a:hover {
+    color: darkred;
+    font-weight: 600;
+    text-shadow: 1px 1px 20px wheat;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+}
+.info{
+    background-color: deepskyblue;
+    margin: 0px;
+    padding: 5px;
+}
+.info a{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.info h1{
+    font-size: 30px;
+}
+
+.app a{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.intro{
+    display: flex;
+}
+.banner img{
+    height: 400px;
+    width: 600pxx;
+    padding: 0px;
+}
+.list{
+    display: flex;
+   //* background-image: url(doc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*//
+}
+.para{
+    width: 50%;
+}
+.para h1{
+    font-size: 30px;
+}
+.para p{
+    font font-size: 10px;
+}
+.option ul{
+    
+    list-style: none;
+    border: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    height: 20px;
+    background-color: blue;
+    min-width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+    
+}
+.li{
+    border: 5px;
+    padding: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+.end{
+    display: flex;
+}
+.add{
+    width: 50%;
+}
+.contact{
+     display: grid;
+    grid-template-rows: 1fr;
+     grid-gap: 1em;
+}
+.contact input{
+   width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+.contact input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:blue;
+    color: white;
+    font-size: 18px;
+}
